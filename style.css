@@ -1,0 +1,16 @@
+@keyframes airplane {
+  0%   { color :rgb(194, 173, 230); left: -100px;  }
+  50% { color: #4e32ac; left:600px; }
+  100% { color:rgb(194, 173, 230); left: 1300px; }
+}
+
+div {
+  font-size: 50px;
+  color: rgb(194, 173, 230);
+  position: relative;
+  animation-name: airplane;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear ;
+}
